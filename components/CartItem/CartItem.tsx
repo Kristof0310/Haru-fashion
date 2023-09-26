@@ -27,9 +27,7 @@ export default function CartItem() {
   const handleAnimate = useCallback(() => {
     if (noOfItems === 0) return;
     setAnimate("animate__animated animate__headShake");
-    // setTimeout(() => {
-    //   setAnimate("");
-    // }, 0.1);
+ 
   }, [noOfItems, setAnimate]);
 
   // Set animate when no of items changes
